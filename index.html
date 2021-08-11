@@ -35,8 +35,13 @@
         <a class="navbar-brand me" href="#">
           <img src="./images/logo.svg" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><svg width="16" height="15" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h16v3H0zM0 6h16v3H0zM0 12h16v3H0z"/></g></svg></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><svg width="16" height="15" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#FFF" fill-rule="evenodd">
+                <path d="M0 0h16v3H0zM0 6h16v3H0zM0 12h16v3H0z" />
+              </g>
+            </svg></span>
         </button>
         <div class="collapse navbar-collapse text-center " id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto ">
@@ -84,7 +89,7 @@
   <section class="container cardMain mt-3 p-5" id="discover">
     <div class="row p-sm-5 ">
       <div class="col-md-4  line text-center">
-        <p class="bold mb-0" >$<span id='money'>89.914</span></p>
+        <p class="bold mb-0">$<span id='money'>89.914</span></p>
         <p class="normal-grey mb-0">of $100.000 backed</p>
       </div>
       <div class="col-md-4 line text-center">
@@ -225,8 +230,8 @@
             <div class="row mt-3 justify-content-end">
               <hr>
               <div class="col-md-4 text-start text-md-end">
-                <a href="#" onclick="checkModal(), countBackers()"><button class="buttonCyan p-3 ps-4 pe-4 buttonTextWhite"
-                    id="">Continue</button></a>
+                <a href="#" onclick="checkModal(), countBackers()"><button
+                    class="buttonCyan p-3 ps-4 pe-4 buttonTextWhite">Continue</button></a>
               </div>
             </div>
           </div>
@@ -236,7 +241,8 @@
       <div class="container cardSecond mt-3 p-4" id="bambooStandContainer">
         <div class="row">
           <div class="col-md-4">
-            <label for="bambooStand" class="boldSecond" onclick="showPrice('bambooStand'), lightContainer('bambooStand')">
+            <label for="bambooStand" class="boldSecond"
+              onclick="showPrice('bambooStand'), lightContainer('bambooStand')">
               <input type="radio" id="bambooStand" class="me-2" name="crowCheck"> bamboo Stand
             </label>
           </div>
@@ -262,14 +268,14 @@
               </div>
               <div class="col-md-2 align-self-center modalPrice">
                 <p>
-                  <label for="" class="boldSecond text-center mt-2">$
-                    <input value="25">
+                  <label for="inputV25" class="boldSecond text-center mt-2">$
+                    <input id="inputV25" value="25">
                   </label>
                 </p>
               </div>
               <div class="col-md-4 col-sm-3 mt-md-0 mt-3 text-start text-md-end">
-                <a href="#bambooStandPrice" onclick="widthBar('bambooStandPrice')"><button class="buttonCyan p-3 ps-4 pe-4 buttonTextWhite"
-                    id="">Continue</button></a>
+                <a href="#bambooStandPrice" onclick="widthBar('bambooStandPrice')"><button
+                    class="buttonCyan p-3 ps-4 pe-4 buttonTextWhite">Continue</button></a>
               </div>
             </div>
           </div>
@@ -307,14 +313,14 @@
               </div>
               <div class="col-md-2 align-self-center modalPrice">
                 <p>
-                  <label for="" class="boldSecond text-center mt-2">$
-                    <input value="75">
+                  <label for="inputV75" class="boldSecond text-center mt-2">$
+                    <input value="75" id="inputV75">
                   </label>
                 </p>
               </div>
               <div class="col-md-4 col-sm-3 mt-md-0 mt-3 text-start text-md-end">
-                <a href="#blackEditionStandPrice" onclick="widthBar('blackEditionStandPrice')"><button class="buttonCyan p-3 ps-4 pe-4 buttonTextWhite"
-                    id="">Continue</button></a>
+                <a href="#blackEditionStandPrice" onclick="widthBar('blackEditionStandPrice')"><button
+                    class="buttonCyan p-3 ps-4 pe-4 buttonTextWhite">Continue</button></a>
               </div>
             </div>
           </div>
@@ -326,7 +332,8 @@
       <div class="container cardSecond mt-3 p-4" id="mahoganySpecialContainer">
         <div class="row">
           <div class="col-md-6">
-            <label for="mahoganySpecial" onclick="showPrice('mahoganySpecial'), lightContainer('mahoganySpecial')" class="boldSecond">
+            <label for="mahoganySpecial" onclick="showPrice('mahoganySpecial'), lightContainer('mahoganySpecial')"
+              class="boldSecond">
               <input type="radio" id="mahoganySpecial" class="me-2" name="crowCheck"> Mahogany Special Edition
             </label>
           </div>
@@ -341,7 +348,9 @@
               to our Backer member list. Shipping is included.</p>
           </div>
           <!-- Selection modal end -->
-
+        </div>
+      </div> 
+    </div>  
   </section>
   <!-- Success modal start -->
 
@@ -370,7 +379,8 @@
       </div>
       <div class="row text-center mt-3">
         <div class="col-12 normal-grey">
-          <a href="#" id="closeModalTwo" onclick="closeCheckModal()"><button class="buttonCyanLight p-3 ps-4 pe-4 buttonTextWhite">Got
+          <a href="#" id="closeModalTwo" onclick="closeCheckModal()"><button
+              class="buttonCyanLight p-3 ps-4 pe-4 buttonTextWhite">Got
               it!</button></a>
         </div>
       </div>
