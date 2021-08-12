@@ -114,6 +114,7 @@ body{
 .headerBG{
     background-image: url(../images/image-hero-desktop.jpg);
     height: 60vh;
+    background-size: cover;
 }
 
 .navLink{
